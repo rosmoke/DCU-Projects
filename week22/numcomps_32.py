@@ -1,0 +1,6 @@
+print(("Multiples of 3: {}").format([i for i in range(1,31) if not i % 3]))
+print(("Multiples of 3 squared: {}").format([i ** 2 for i in range(1,31) if not i % 3]))
+print(("Multiples of 4 doubled: {}").format([i * 2 for i in range(1,31) if not i % 4]))
+print(("Multiples of 3 or 4: {}").format([i for i in range(1,31) if not i % 4 or not i % 3]))
+print(("Multiples of 3 and 4: {}").format([i for i in range(1,31) if not i % 4 and not i % 3]))
+print(("Multiples of 3 replaced: {}").format(["X" if not i % 3 else i for i in range(1,31)]))
